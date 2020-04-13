@@ -1,0 +1,142 @@
+#title{
+  background-color: #ff4c68;
+}
+#features{
+  position:relative;
+  z-index: 1;
+  background-color: white;
+
+
+}
+#cta{
+  background-color: #ff4c68;
+}
+.h1{
+  font-family: Montserrat-black, sans-serif;
+  font-size: 3rem;
+  color: white;
+  margin-top: 168px;
+
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.button1{
+  margin-top: 100px;
+}
+.img1{
+  transform: rotate(20deg);
+  position: absolute;
+  top: 150px;
+  left:25%;
+z-index: 0;
+}
+.nav-link{
+  padding-left: 10px;
+  font-family: Ubuntu;
+}
+h3{
+  font-family:Montserrat-bold, sans-serif;
+  text-align: center;
+
+
+}
+h2{
+font-family: Fondamento, cursive;
+color: #fff;
+}
+p{
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight:normal;
+  color: #8f8f8f;
+}
+.fa-6x{
+  color: #ef8172;
+  margin-left: 133px;
+  margin-bottom: 40px;
+  margin-top: 60px
+}
+.fa-6x:hover{
+  color: #ff4c68;
+}
+.testimonial{
+  background-color: #ef8172;
+  text-align: center;
+
+
+}
+.carousel-item{
+  padding: 3% 15%;
+}
+.testimonial-image{
+  width:150px;
+  padding-bottom:3%;
+  margin-bottom: 25px;
+  margin-left: 45px;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin-bottom: 25px
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #ef8172;
+  color: white;
+  transform: rotateY(180deg);
+}
+.pricing-image{
+  width:40%;
+
+}
+.pricing-text{
+  padding-top: 5px;
+  color: white;
+}
+.pricing-div{
+  color:#eae7d9;
+  padding: 10px
+}
+.pricing-text1{
+  color:#323232;
+}
+.footer-div{
+  text-align: center;
+}
+#footer{
+
+  text-align: center;
+}
+.fa-2x{
+    padding:100px 20px 50px 10px;
+}
